@@ -74,7 +74,7 @@ buttons.forEach(button => {
 
     if (value === 'AC') {
       input = '';
-    } else if (value === '⌫') {
+    } else if (value === 'DEL') {
       input = input.slice(0, -1);
     } else if (value === '=') {
       input = calculate(input);
