@@ -34,11 +34,9 @@ function hexDivide(a, b) {
   return formatHexOutput(result);
 }
 
-module.exports = {
-  hexToDecimal,
-  formatHexOutput,
+export {
   hexAdd,
   hexSubtract,
   hexMultiply,
-  hexDivide,
+  hexDivide
 };

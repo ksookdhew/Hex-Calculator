@@ -3,7 +3,7 @@ const {
   hexSubtract,
   hexMultiply,
   hexDivide,
-} = require('../src/calculator');
+} = require('../src/calculatorTest.js');
 
 test('Adds two hex numbers correctly', () => {
   expect(hexAdd('A', '5')).toBe('F');
